@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fsize: 14px;
+}
+
+body {
+
+
+    font-family: "Baloo Bhai 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+header {
+
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 14vh;
+    color: #ffffff;
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+
+}
+
+#logo {
+    width: 35px;
+    height: 36px;
+}
+
+nav>ul {
+    margin: 0px 23px;
+    display: flex;
+    list-style: none;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+
+}
+
+ul>li>a:hover {
+    color: gray;
+
+
+}
+
+ul>.li:first-child {
+    font-size: 20px;
+    display: flex;
+    font-weight: bolder;
+    gap: 10px;
+    align-items: center;
+}
+
+ul>.li:nth-last-child(1) {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    gap: 52px;
+
+}
+
+main {
+    background: #E6DADA;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #274046, #E6DADA);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414d503d, #e6dadaa2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    display: grid;
+    background-color: #aeaeae69;
+    /* border: 2px solid rgb(94, 93, 93); */
+    grid-template-columns: 310px 280px;
+    /* align-content: center; */
+    margin-top: 54px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    padding: 0px 21px;
+    justify-items: center;
+    box-shadow: 6px 6px 19px 5.5px black
+}
+
+.container #h3 {
+    padding: 9px 0px;
+
+}
+
+.box:first-child {
+    margin-top: 40px !important;
+}
+
+
+.container>.box {
+    margin: 23px 0px;
+    
+}
+
+.container>.boximg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+
+}
+
+/* transitions applied */
+.im:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 2px 2px 3px rgba(36, 35, 35, 0.677);
+    filter: brightness(0.8);
+
+
+
+
+}
+
+.im:hover span {
+    /* opacity:0; */
+    visibility: visible;
+    background-color: #fe4d4d;
+}
+
+#fst {
+    object-position: bottom right;
+    margin-top: 18px;
+}
+
+.container .rec {
+    padding-top: 32px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main img {
+
+    width: 200px;
+    height: 380px;
+    object-fit: cover;
+    box-sizing: border-box;
+    transition: all 1s ease-out 0s;
+    border-radius: 10px;
+    margin: auto;
+
+
+}
+#lastspan{
+    display: inline-block;
+    margin-bottom: 10px;
+  
+}
+
+.box ul li {
+    list-style-position: inside;
+    font-size: var(--fsize);
+}
+
+.box ol li {
+    list-style-position: inside;
+    font-size: var(--fsize);
+}
+
+footer {
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #fbfdfd;
+    height: 14vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+footer>p {
+    font-size: 15px;
+    ;
+}
